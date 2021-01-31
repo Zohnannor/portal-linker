@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portal linker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="overworld" class="world">
+        <div class="coords">
+          <div class="portal-frame">
+            <div class="portal-inner">
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+            </div>
+          </div>
+          <input type="number" placeholder="x" id="ow_x1" />
+          <input type="number" placeholder="z" id="ow_z1" />
+        </div>
+        <div class="coords">
+          <div class="portal-frame">
+            <div class="portal-inner">
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+            </div>
+          </div>
+          <input type="number" placeholder="x" id="ow_x2" />
+          <input type="number" placeholder="z" id="ow_z2" />
+        </div>
+      </div>
+      <div class="o-ground">
+        <div class="grass"></div>
+        <div class="dirt"></div>
+      </div>
+      <div class="bedrock">
+        <div class="button">
+          <button id="ow1">Calculate</button>
+        </div>
+      </div>
+      <div id="nether" class="world">
+        <div class="coords">
+          <div class="portal-frame">
+            <div class="portal-inner">
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+            </div>
+          </div>
+          <input type="number" placeholder="x" id="n_x1" />
+          <input type="number" placeholder="z" id="n_z1" />
+        </div>
+        <div class="coords">
+          <div class="portal-frame">
+            <div class="portal-inner">
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+              <div class="portal"></div>
+            </div>
+          </div>
+          <input type="number" placeholder="x" id="n_x2" />
+          <input type="number" placeholder="z" id="n_z2" />
+        </div>
+      </div>
+      <div class="n-ground"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
