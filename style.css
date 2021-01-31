@@ -27,7 +27,7 @@ button {
   font-size: 11pt;
   text-shadow: 3px 3px 0 black;
   padding: 8px;
-  background: url(portal-linker/img/stone.png);
+  background: url(https://zohnannor.github.io/portal-linker/img/stone.png);
   background-size: contain;
   outline: none;
 }
@@ -61,13 +61,13 @@ button:hover {
 
 .grass {
   height: calc(var(--block-size) * 1);
-  background-image: url('portal-linker/img/grass_block_side.png');
+  background-image: url('https://zohnannor.github.io/portal-linker/img/grass_block_side.png');
   background-size: var(--block-size);
 }
 
 .dirt {
   height: calc(var(--block-size) * 1);
-  background-image: url('portal-linker/img/dirt.png');
+  background-image: url('https://zohnannor.github.io/portal-linker/img/dirt.png');
   background-size: var(--block-size);
 }
 
@@ -75,18 +75,19 @@ button:hover {
   box-shadow: 0 -4px 20px 0 black;
   position: relative;
   height: calc(var(--block-size) * 2);
-  background-image: url('portal-linker/img/netherrack.png');
+  background-image: url('https://zohnannor.github.io/portal-linker/img/netherrack.png');
   background-size: calc(var(--block-size));
 }
 
 #overworld {
-  /* background: top left 0% / var(--block-size) var(--block-size) repeat url(portal-linker/img/stone.png); */
+  /* background: top left 0% / var(--block-size) var(--block-size) repeat url(https://zohnannor.github.io/portal-linker/img/stone.png); */
   background-color: skyblue;
   justify-content: space-around;
 }
 
 .bedrock {
-  background: top left 0% / var(--block-size) var(--block-size) repeat url(portal-linker/img/bedrock.png);
+  background: top left 0% / var(--block-size) var(--block-size) repeat
+    url(https://zohnannor.github.io/portal-linker/img/bedrock.png);
   height: var(--block-size);
   display: flex;
   justify-content: center;
@@ -97,7 +98,8 @@ button:hover {
 }
 
 #nether {
-  background: top left 0% / var(--block-size) var(--block-size) repeat url(portal-linker/img/netherrack.png);
+  background: top left 0% / var(--block-size) var(--block-size) repeat
+    url(https://zohnannor.github.io/portal-linker/img/netherrack.png);
   justify-content: space-evenly;
 }
 
@@ -108,7 +110,8 @@ button:hover {
   bottom: 0;
   width: calc(var(--block-size) * 2);
   height: calc(var(--block-size) * 3);
-  background: top left 0% / var(--block-size) var(--block-size) repeat url(portal-linker/img/obsidian.png);
+  background: top left 0% / var(--block-size) var(--block-size) repeat
+    url(https://zohnannor.github.io/portal-linker/img/obsidian.png);
 }
 
 .portal-inner {
@@ -122,18 +125,19 @@ button:hover {
 }
 
 #nether .portal-inner {
-  background: top left 0% / var(--block-size) var(--block-size) repeat url(portal-linker/img/netherrack.png);
+  background: top left 0% / var(--block-size) var(--block-size) repeat
+    url(https://zohnannor.github.io/portal-linker/img/netherrack.png);
 }
 
 @keyframes swirl {
   from {
     background-position: top var(--block-size) left;
-    background-image: url(portal-linker/img/nether_portal.png);
+    background-image: url(https://zohnannor.github.io/portal-linker/img/nether_portal.png);
   }
 
   to {
     background-position: top calc(var(--block-size) * 32) left;
-    background-image: url(portal-linker/img/nether_portal.png);
+    background-image: url(https://zohnannor.github.io/portal-linker/img/nether_portal.png);
   }
 }
 
@@ -141,7 +145,7 @@ button:hover {
   width: var(--block-size);
   height: var(--block-size);
   background-size: var(--block-size) calc(var(--block-size) * 32);
-  background-image: url(portal-linker/img/nether_portal.png);
+  background-image: url(https://zohnannor.github.io/portal-linker/img/nether_portal.png);
   animation: swirl 1s steps(31) infinite;
 }
 
